@@ -18,7 +18,7 @@
             <input type="password" name="pwd" id="pwd">
         </fieldset>
     </form>
-    <form action="">
+    <form action="send.php">
         <fieldset>
             <legend>Favourite color</legend>
             <input type="radio" name="color" id="blue" value="blue">
@@ -37,6 +37,15 @@
             <input type="checkbox" name="phone" id="phone" value="phone">
             <label for="phone">Phone</label>
         </fieldset>
+        <label for="comment">Comments</label>
+        <textarea cols="50" rows="5" placeholder="My comments"></textarea>
+        <label for="cities">Cities:</label>
+        <select name="cities" id="cities">
+            <option value="paris">París</option>
+            <option value="ferrol">Ferrol</option>
+            <option value="otawa">Otawa</option>
+            <option value="boiro">Boiro</option>
+        </select>
         <input type="submit" value="Submit">
     </form>
 </body>
