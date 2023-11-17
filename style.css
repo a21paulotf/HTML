@@ -1,0 +1,44 @@
+table{
+    border-width: 10px;
+    border-style: double;
+    border-color: blueviolet;
+    border-collapse: collapse;   
+}
+thead{
+    background-color: yellowgreen;
+}
+#hours{
+    background-color: chocolate;
+}
+.day{
+    background-color: cornflowerblue;
+}
+.lunch{
+    background-color: crimson;
+    color: white;
+    text-align: center;
+}
+#project{
+    text-align: center;
+}
+td{
+    padding: 2em;
+    background-color: aquamarine;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+pre{
+    margin: 0;ç
+    border: 10px solid red;
+}
+a:link{
+    color: red;
+}
+a:visited{
+    color: blue;
+}
+a:hover{
+    color: green;
+}
+a:active{
+    color: brown;
+}
